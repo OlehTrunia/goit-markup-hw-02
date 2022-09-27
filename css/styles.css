@@ -1,7 +1,7 @@
-.header-list{
-list-style: none;    
-}
 
+/* .header-list{
+list-style: none;    
+} */
 .logo{
 font-family: Raleway;
 font-weight: 700;
@@ -10,21 +10,17 @@ line-height: 0.83;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-
 .header-link{
-font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-
 .header-link:hover,
 .header-link:focus{
 color: #2196F3;
 }
-
 .referents{
 font-weight: 500;
 font-size: 14px;
@@ -32,15 +28,19 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-
 .body{
 font-family: 'Open Sans', sans-serif;
 }
+.list{
+list-style: none;
+}
+.link{
+text-decoration: none;
+}    
 /*-------------------------------------HERO---------------------------*/
 .hero{
     background-color: #2F303A;
 }
-
 .hero-title{
 font-weight: 900;
 font-size: 44px;
@@ -50,8 +50,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-
-.hero-button{
+.hero-btn{
 /* position: absolute;
 width: 216px;
 height: 50px;
@@ -61,11 +60,13 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
+.button{
+
+}
 /*--------------------------SCILLS-------------------------------*/
 .scills{
 background-color: #ffffff;
 }
-
 .scills-title{
 font-weight: 700;
 font-size: 14px;
@@ -74,21 +75,12 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
-
-.scills-list{
-list-style: none;
-}
 .scills-item{font-weight: 400;font-size: 14px;line-height: 1.71;letter-spacing: 0.03em;color: #757575;
 }
 /*-----------------------WORK---------------------------*/
 .work{
 background-color: #ffffff;
 }
-
-.work-list{
-list-style: none;
-}
-
 .work-title{
 font-style: normal;
 font-weight: 700;
@@ -102,11 +94,6 @@ color: #212121;
 .specialists{
 background: #F5F4FA;
 }
-
-.specialists-list{
-list-style: none;
-}
-
 .specialists-title{
 font-weight: 700;
 font-size: 36px;
@@ -115,7 +102,6 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 color: #212121;
 }
-
 .specialists-name{
 font-weight: 500;
 font-size: 16px;
@@ -125,7 +111,6 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;
 }
-
 .specialists-directions{
 font-weight: 400;
 font-size: 16px;
@@ -137,10 +122,7 @@ color: #757575;
 }
 /*----------------------FOOTER------------------------------*/
 .footer{
-    background-color: #2F303A;
-}
-.footer-list{
-list-style: none;
+background-color: #2F303A;
 }
 .footer-link{
 font-weight: 400;
@@ -154,7 +136,17 @@ color: #FFFFFF;
 .superhero{
     background-color: #ffffff;
 }
-.navigation-list,
-.superhero-list{
-list-style: none;
+.superhero-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.superhero-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
